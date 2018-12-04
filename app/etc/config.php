@@ -133,5 +133,43 @@ return [
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'Ves_Setup' => 1
+    ],
+    'themes' => [
+        'frontend/Magento/blank' => [
+            'parent_id' => NULL,
+            'theme_path' => 'Magento/blank',
+            'theme_title' => 'Magento Blank',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Magento/blank'
+        ],
+        'adminhtml/Magento/backend' => [
+            'parent_id' => NULL,
+            'theme_path' => 'Magento/backend',
+            'theme_title' => 'Magento 2 backend',
+            'is_featured' => '0',
+            'area' => 'adminhtml',
+            'type' => '0',
+            'code' => 'Magento/backend'
+        ],
+        'frontend/Magento/luma' => [
+            'parent_id' => 'Magento/blank',
+            'theme_path' => 'Magento/luma',
+            'theme_title' => 'Magento Luma',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Magento/luma'
+        ],
+        'frontend/Venustheme/vigoss' => [
+            'parent_id' => 'Magento/blank',
+            'theme_path' => 'Venustheme/vigoss',
+            'theme_title' => 'Venustheme - Vigoss',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Venustheme/vigoss'
+        ]
     ]
 ];
