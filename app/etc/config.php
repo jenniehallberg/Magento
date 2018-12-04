@@ -131,6 +131,7 @@ return [
         'Mageplaza_Core' => 1,
         'Mageplaza_Gdpr' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1
+        'Vertex_Tax' => 1,
+        'Ves_Setup' => 1
     ]
 ];
