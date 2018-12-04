@@ -131,8 +131,7 @@ return [
         'Mageplaza_Core' => 1,
         'Mageplaza_Gdpr' => 1,
         'Temando_Shipping' => 1,
-        'Vertex_Tax' => 1,
-        'Ves_Setup' => 1
+        'Vertex_Tax' => 1
     ],
     'themes' => [
         'frontend/Magento/blank' => [
@@ -161,15 +160,6 @@ return [
             'area' => 'frontend',
             'type' => '0',
             'code' => 'Magento/luma'
-        ],
-        'frontend/Venustheme/vigoss' => [
-            'parent_id' => 'Magento/blank',
-            'theme_path' => 'Venustheme/vigoss',
-            'theme_title' => 'Venustheme - Vigoss',
-            'is_featured' => '0',
-            'area' => 'frontend',
-            'type' => '0',
-            'code' => 'Venustheme/vigoss'
         ]
     ]
 ];
